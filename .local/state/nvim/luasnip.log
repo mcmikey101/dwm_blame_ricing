@@ -1,0 +1,20 @@
+WARN | 02:05:14 AM | vscode-loader: Could not find package.json(c) in path  (expanded to nil).
+WARN | 02:05:14 AM | vscode-loader: Could not resolve all manifests for paths `{ "" }`: only found `{}`
+WARN | 02:05:14 AM | snipmate-loader: Could not resolve all collection-roots for paths `{ "" }`: only found `{}`
+WARN | 02:05:14 AM | lua-loader: Could not resolve all collection-roots for paths `{ "" }`: only found `{}`
+WARN | 02:08:24 AM | vscode-loader: Could not find package.json(c) in path  (expanded to nil).
+WARN | 02:08:24 AM | vscode-loader: Could not resolve all manifests for paths `{ "" }`: only found `{}`
+WARN | 02:08:24 AM | snipmate-loader: Could not resolve all collection-roots for paths `{ "" }`: only found `{}`
+WARN | 02:08:24 AM | lua-loader: Could not resolve all collection-roots for paths `{ "" }`: only found `{}`
+WARN | 02:09:18 AM | vscode-loader: Could not find package.json(c) in path  (expanded to nil).
+WARN | 02:09:18 AM | vscode-loader: Could not resolve all manifests for paths `{ "" }`: only found `{}`
+WARN | 02:09:18 AM | snipmate-loader: Could not resolve all collection-roots for paths `{ "" }`: only found `{}`
+WARN | 02:09:18 AM | lua-loader: Could not resolve all collection-roots for paths `{ "" }`: only found `{}`
+WARN | 02:54:43 AM | vscode-loader: Could not find package.json(c) in path  (expanded to nil).
+WARN | 02:54:43 AM | vscode-loader: Could not resolve all manifests for paths `{ "" }`: only found `{}`
+WARN | 02:54:43 AM | snipmate-loader: Could not resolve all collection-roots for paths `{ "" }`: only found `{}`
+WARN | 02:54:43 AM | lua-loader: Could not resolve all collection-roots for paths `{ "" }`: only found `{}`
+WARN | 08:08:14 PM | vscode-loader: Could not find package.json(c) in path  (expanded to nil).
+WARN | 08:08:14 PM | vscode-loader: Could not resolve all manifests for paths `{ "" }`: only found `{}`
+WARN | 08:08:14 PM | snipmate-loader: Could not resolve all collection-roots for paths `{ "" }`: only found `{}`
+WARN | 08:08:14 PM | lua-loader: Could not resolve all collection-roots for paths `{ "" }`: only found `{}`

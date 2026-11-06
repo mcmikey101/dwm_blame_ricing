@@ -1,0 +1,8 @@
+#!/bin/sh
+# Volume of the default output (PipeWire / WirePlumber)
+out=$(wpctl get-volume @DEFAULT_AUDIO_SINK@ 2>/dev/null)
+case "$out" in
+    *MUTED*) echo "VOL muted" ;;
+    Volume:*) echo "$out" | awk '{ printf "VOL %.0f%%\n", $2 * 100 }' ;;
+    *) echo "VOL n/a" ;;
+esac

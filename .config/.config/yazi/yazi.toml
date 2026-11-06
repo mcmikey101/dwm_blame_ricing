@@ -1,0 +1,59 @@
+# yazi.toml: behaviour for the BLAME! setup
+
+[mgr]
+ratio          = [ 1, 3, 4 ]     # a wide preview pane, like the open slope
+sort_by        = "natural"
+sort_sensitive = false
+sort_dir_first = true
+linemode       = "size" # defined in init.lua
+show_hidden    = true
+show_symlink   = true
+scrolloff      = 8
+
+[preview]
+wrap          = "no"
+tab_size      = 4
+max_width     = 1000
+max_height    = 1500
+image_filter  = "lanczos3"
+image_quality = 85
+
+[opener]
+edit = [
+	{ run = "${EDITOR:-vim} %s", block = true, desc = "Edit", for = "unix" },
+]
+open = [
+	{ run = "xdg-open %s1", desc = "Open", for = "linux" },
+]
+reveal = [
+	{ run = "xdg-open %d1", desc = "Reveal in file manager", for = "linux" },
+]
+play = [
+	{ run = "mpv --force-window %s", orphan = true, desc = "Play with mpv", for = "unix" },
+]
+
+[open]
+# Prepended, so yazi's default rules stay underneath as a fallback.
+prepend_rules = [
+	# Plain text always goes to the editor, never to xdg-open
+	{ url = "*.{txt,md,log,conf,cfg,ini,toml,yaml,yml,csv}", use = [ "edit", "reveal" ] },
+	{ mime = "text/*", use = [ "edit", "reveal" ] },
+	{ mime = "inode/{empty,x-empty}", use = [ "edit", "reveal" ] },
+	{ mime = "application/{json,ndjson,xml,toml,x-yaml}", use = [ "edit", "reveal" ] },
+
+	# Audio and video
+	{ mime = "{audio,video}/*", use = [ "play", "reveal" ] },
+]
+
+[input]
+cursor_blink = false
+cd_title     = "Go to:"
+create_title = [ "Create file:", "Create folder:" ]
+rename_title = "Rename:"
+filter_title = "Filter:"
+find_title   = [ "Find next:", "Find previous:" ]
+search_title = "Search with {n}:"
+shell_title  = [ "Run:", "Run (blocking):" ]
+
+[which]
+sort_by = "key"
