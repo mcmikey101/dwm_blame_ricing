@@ -1,0 +1,3 @@
+#!/bin/sh
+# Used / total RAM, e.g. "MEM 412Mi/985Mi"
+free -h | awk '/^Mem/ { print "MEM " $3 "/" $2 }'

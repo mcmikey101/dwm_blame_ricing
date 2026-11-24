@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/mcmk/Downloads/AmneziaVPN_5.1.0.6_linux_x64.run" added="2026-11-12T18:30:19.265352Z" modified="2026-11-12T18:30:19.265376Z" visited="2026-11-12T18:30:19.265355Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreWolf" exec="&apos;librewolf %u&apos;" modified="2026-11-12T18:30:19.265363Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mcmk/screenshots/desktop.png" added="2026-11-13T19:06:09.318271Z" modified="2026-11-13T19:06:09.318277Z" visited="2026-11-13T19:06:09.318272Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreWolf" exec="&apos;librewolf %u&apos;" modified="2026-11-13T19:06:09.318274Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mcmk/.config/rofi/config.rasi" added="2026-11-13T19:10:16.907544Z" modified="2026-11-13T19:10:16.907563Z" visited="2026-11-13T19:10:16.907546Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreWolf" exec="&apos;librewolf %u&apos;" modified="2026-11-13T19:10:16.907554Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mcmk/Obsidian%20Vault" added="2026-11-13T20:37:54.202236Z" modified="2026-11-13T20:37:54.220838Z" visited="2026-11-13T20:37:54.202238Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2026-11-13T20:37:54.220835Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mcmk/obsidian_vault" added="2026-11-13T20:50:17.420886Z" modified="2026-11-13T20:50:17.436549Z" visited="2026-11-13T20:50:17.420889Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2026-11-13T20:50:17.436547Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mcmk/screenshots/2026-11-13_23-50.png" added="2026-11-13T21:48:16.532311Z" modified="2026-11-13T21:48:16.545967Z" visited="2026-11-13T21:48:16.532313Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2026-11-13T21:48:16.545964Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mcmk/Downloads/gtk.css" added="2026-11-13T21:51:03.983827Z" modified="2026-11-13T21:51:03.983835Z" visited="2026-11-13T21:51:03.983828Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-11-13T21:51:03.983831Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mcmk/Downloads/settings.ini" added="2026-11-13T21:52:11.637969Z" modified="2026-11-13T21:52:11.637976Z" visited="2026-11-13T21:52:11.637970Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-11-13T21:52:11.637972Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mcmk/Downloads/td-setup-linux-x64-7.4.4.tar.xz" added="2026-11-14T13:25:33.013181Z" modified="2026-11-14T13:25:33.013198Z" visited="2026-11-14T13:25:33.013183Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-11-14T13:25:33.013187Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/mcmk/.local/src/dwm_stuff/dwm-movestack-20211115-a786211.diff" added="2026-11-14T21:02:17.638061Z" modified="2026-11-14T21:02:17.638075Z" visited="2026-11-14T21:02:17.638064Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2026-11-14T21:02:17.638068Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

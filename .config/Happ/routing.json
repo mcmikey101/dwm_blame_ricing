@@ -1,0 +1,15 @@
+{
+    "routings": [],
+    "activeRoutingName": "",
+    "routingNames": [],
+    "subConfigs": [
+        {
+            "subscriptionId": 0,
+            "enabled": false,
+            "ignoreProfile": false,
+            "selectedProfile": "",
+            "providerRoutingDisabled": false
+        }
+    ],
+    "version": 2
+}

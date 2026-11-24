@@ -1,0 +1,16 @@
+#!/bin/sh
+# Battery level and charging state
+for bat in /sys/class/power_supply/BAT*; do
+    if [ ! -d "$bat" ]; then
+        echo "BAT none"
+        exit
+    fi
+    cap=$(cat "$bat/capacity")
+    case "$(cat "$bat/status")" in
+        Charging) label="CHR" ;;
+        Full) label="FULL" ;;
+        *) label="BAT" ;;
+    esac
+    echo "$label $cap%"
+    exit
+done

@@ -1,0 +1,16 @@
+#!/bin/sh
+# Connection status via NetworkManager, with Wi-Fi name and signal strength
+case "$(nmcli networking connectivity 2>/dev/null)" in
+    full) ;;
+    limited | portal) echo "NET limited"; exit ;;
+    *) echo "NET offline"; exit ;;
+esac
+
+wifi=$(nmcli -t -f active,ssid,signal dev wifi 2>/dev/null |
+    awk -F: '$1 == "yes" { print $2 " " $3 "%"; exit }')
+
+if [ -n "$wifi" ]; then
+    echo "WIFI $wifi"
+else
+    echo "NET wired"
+fi

@@ -1,0 +1,81 @@
+[2026.11.20 16:58:23] Launched version: 7004004, install beta: [FALSE], debug mode: [FALSE]
+[2026.11.20 16:58:23] Executable dir: /usr/bin/, name: Telegram
+[2026.11.20 16:58:23] Initial working dir: /home/mcmk/
+[2026.11.20 16:58:23] Working dir: /home/mcmk/.local/share/TelegramDesktop/
+[2026.11.20 16:58:23] Command line: /usr/bin/Telegram --
+[2026.11.20 16:58:23] Executable path before check: /usr/bin/Telegram
+[2026.11.20 16:58:23] Logs started
+[2026.11.20 16:58:23] App ID: org.telegram.desktop._bd9ccae75ce72a4ddb4260b3c0743e13
+[2026.11.20 16:58:26] Connecting local socket to 3e35d7fe701292f5053af01ccf47decd-TelegramDesktop...
+[2026.11.20 16:58:26] Socket connect error 0, starting server and app...
+[2026.11.20 16:58:26] Moved logging from '/home/mcmk/.local/share/TelegramDesktop/log_start0.txt' to '/home/mcmk/.local/share/TelegramDesktop/log.txt'!
+[2026.11.20 16:58:26] Global devicePixelRatio: 1
+[2026.11.20 16:58:26] Primary screen DPI: 96, Base: 96.
+[2026.11.20 16:58:26] Computed screen scale: 100
+[2026.11.20 16:58:26] DevicePixelRatio: 1
+[2026.11.20 16:58:26] ScreenScale: 100
+[2026.11.20 16:58:26] Icon theme: Papirus-Dark
+[2026.11.20 16:58:26] Fallback icon theme: hicolor
+[2026.11.20 16:58:26] Media Info: Type Playback, default: Built-in Audio Analog Stereo, list: { "Built-in Audio Analog Stereo" <Built-in Audio Analog Stereo> }, full list refresh: true
+[2026.11.20 16:58:26] Media Info: Type Capture, default: Built-in Audio Analog Stereo #2, list: { "Built-in Audio Analog Stereo #2" <Built-in Audio Analog Stereo #2>, "Monitor of Built-in Audio Analog Stereo" <Monitor of Built-in Audio Analog Stereo> }, full list refresh: true
+[2026.11.20 16:58:26] Media Error: Can't sync default device for type Camera, default: , list: {  }
+[2026.11.20 16:58:26] App Info: reading settings...
+[2026.11.20 16:58:26] App Info: reading encrypted settings...
+[2026.11.20 16:58:26] Lang Info: Loaded cached, keys: 12050
+[2026.11.20 16:58:26] Font: from '/home/mcmk/.local/share/TelegramDesktop/tdata/fonts/OpenSans-Italic.ttf' loaded 'Open Sans'
+[2026.11.20 16:58:26] Font: from '/home/mcmk/.local/share/TelegramDesktop/tdata/fonts/OpenSans-Regular.ttf' loaded 'Open Sans'
+[2026.11.20 16:58:27] Font: from '/home/mcmk/.local/share/TelegramDesktop/tdata/fonts/OpenSans-SemiBold.ttf' loaded 'Open Sans'
+[2026.11.20 16:58:27] Font: from '/home/mcmk/.local/share/TelegramDesktop/tdata/fonts/OpenSans-SemiBold.ttf' loaded 'Open Sans Semibold'
+[2026.11.20 16:58:27] Font: from '/home/mcmk/.local/share/TelegramDesktop/tdata/fonts/OpenSans-SemiBoldItalic.ttf' loaded 'Open Sans'
+[2026.11.20 16:58:27] Font: from '/home/mcmk/.local/share/TelegramDesktop/tdata/fonts/OpenSans-SemiBoldItalic.ttf' loaded 'Open Sans Semibold'
+[2026.11.20 16:58:27] Font: from '/home/mcmk/.local/share/TelegramDesktop/tdata/fonts/Vazirmatn-UI-NL-Regular.ttf' loaded 'Vazirmatn UI NL'
+[2026.11.20 16:58:27] Font: from '/home/mcmk/.local/share/TelegramDesktop/tdata/fonts/Vazirmatn-UI-NL-SemiBold.ttf' loaded 'Vazirmatn UI NL'
+[2026.11.20 16:58:27] Font: from '/home/mcmk/.local/share/TelegramDesktop/tdata/fonts/Vazirmatn-UI-NL-SemiBold.ttf' loaded 'Vazirmatn UI NL SemiBold'
+[2026.11.20 16:58:27] OpenAL Logging Level: (not set)
+[2026.11.20 16:58:27] Qt version: 6.11.2 (compiled with 6.11.2)
+[2026.11.20 16:58:28] RHI: Probe backend=OpenGL device=Intel Mesa Intel(R) HD Graphics 3000 (SNB GT2) 3.3 (Core Profile) Mesa 26.3.1-arch1.2 software=no compute=no.
+[2026.11.20 16:58:28] QRhi: backing store primed for window
+[2026.11.20 16:58:28] Screen Reader: inactive
+[2026.11.20 16:58:29] App Info: reading accounts info...
+[2026.11.20 16:58:29] App Info: reading encrypted info...
+[2026.11.20 16:58:29] App Info: reading map...
+[2026.11.20 16:58:29] App Info: reading encrypted map...
+[2026.11.20 16:58:29] App Info: reading encrypted user settings...
+[2026.11.20 16:58:29] App Info: encrypted user settings read.
+[2026.11.20 16:58:29] App Info: reading encrypted mtp data...
+[2026.11.20 16:58:29] MTP Info: read keys, current: 3, to destroy: 0
+[2026.11.20 16:58:29] Map read time: 30
+[2026.11.20 16:58:29] App Info: reading encrypted mtp config...
+[2026.11.20 16:58:30] Export Info: Destroy top bar by controller removal.
+[2026.11.20 16:58:30] System tray available: [FALSE]
+[2026.11.20 16:58:30] Renderer: [QRhi] (Window)
+[2026.11.20 16:58:30] QRhi: backing store primed for window
+[2026.11.20 16:58:30] QRhi: SurfaceRhi created
+[2026.11.20 16:58:31] RPC Error: request 53 got fail with code 400, error COMMUNITY_ID_INVALID
+[2026.11.20 16:58:33] RPC Error: request 76 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🤝‍🧑 is not supported, word: bf.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍❤‍💋‍🧑 is not supported, word: целую.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍❤‍💋‍🧑 is not supported, word: целую.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍❤‍💋‍🧑 is not supported, word: чмок.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍❤‍💋‍🧑 is not supported, word: чмок.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍❤‍💋‍🧑 is not supported, word: поцелуй.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍❤‍💋‍🧑 is not supported, word: поцелуй.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍❤‍🧑 is not supported, word: влюблённые.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍❤‍🧑 is not supported, word: влюблённые.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧑‍🧒 is not supported, word: семья с одним ребенком.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧒‍🧒 is not supported, word: взрослый и дети.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧒 is not supported, word: взрослый с ребенком.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧒 is not supported, word: взрослый и ребёнок.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧒 is not supported, word: родитель с ребёнком.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧒‍🧒 is not supported, word: родитель с двумя детьми.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧒 is not supported, word: взрослый с ребёнком.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧒‍🧒 is not supported, word: двое детей.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍❤‍🧑 is not supported, word: влюбленные.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍❤‍🧑 is not supported, word: влюбленные.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧒 is not supported, word: родитель с ребенком.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧑‍🧒‍🧒 is not supported, word: семья с двумя детьми.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧒 is not supported, word: взрослый и ребенок.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧑‍🧒 is not supported, word: семья с одним ребёнком.
+[2026.11.20 16:58:39] API Warning: emoji 🧑‍🧒‍🧒 is not supported, word: родитель с детьми.
+[2026.11.20 16:58:53] RPC Error: request 156 got fail with code 400, error PEER_ID_INVALID
+[2026.11.20 16:58:54] RPC Error: request 161 got fail with code 400, error PEER_ID_INVALID

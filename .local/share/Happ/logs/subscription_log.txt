@@ -1,0 +1,79 @@
+[20.11.2026 14:17:09] =========================
+[20.11.2026 14:17:09] CREATED
+[20.11.2026 14:17:09] Subscription being added: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[20.11.2026 14:17:09] [UPDATE][INFO] 65fbf7a0.blanc0mba.link fetching subscription from 65fbf7a0.blanc0mba.link
+[20.11.2026 14:17:16] Failed to download subscription: Request timeout after 7 seconds
+[20.11.2026 14:37:05] =========================
+[20.11.2026 14:37:05] UPDATED
+[20.11.2026 14:37:05] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[20.11.2026 14:37:05] [UPDATE][INFO] 65fbf7a0.blanc0mba.link fetching subscription from 65fbf7a0.blanc0mba.link
+[20.11.2026 14:37:11] Server response: code: 200, content-length: 25836 bytes
+[20.11.2026 14:37:11] Subscription #-861591041 updated successfully: 50 servers imported/updated
+[20.11.2026 15:37:04] [UPDATE][INFO] auto-update cycle starting for 1 due subscription(s)
+[20.11.2026 15:37:04] =========================
+[20.11.2026 15:37:04] UPDATED
+[20.11.2026 15:37:04] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[20.11.2026 15:37:04] [UPDATE][INFO] BlancVPN fetching subscription from 65fbf7a0.blanc0mba.link
+[20.11.2026 15:37:07] Server response: code: 200, content-length: 25772 bytes
+[20.11.2026 15:37:07] Subscription #-861591041 updated successfully: 50 servers imported/updated
+[20.11.2026 16:37:04] [UPDATE][INFO] auto-update cycle starting for 1 due subscription(s)
+[20.11.2026 16:37:04] =========================
+[20.11.2026 16:37:04] UPDATED
+[20.11.2026 16:37:04] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[20.11.2026 16:37:04] [UPDATE][INFO] BlancVPN fetching subscription from 65fbf7a0.blanc0mba.link
+[20.11.2026 16:37:05] Server response: code: 200, content-length: 25832 bytes
+[20.11.2026 16:37:05] Subscription #-861591041 updated successfully: 50 servers imported/updated
+[20.11.2026 17:46:06] [UPDATE][INFO] auto-update cycle starting for 1 due subscription(s)
+[20.11.2026 17:46:06] =========================
+[20.11.2026 17:46:06] UPDATED
+[20.11.2026 17:46:06] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[20.11.2026 17:46:06] [UPDATE][INFO] BlancVPN fetching subscription from 65fbf7a0.blanc0mba.link
+[20.11.2026 17:46:08] [UPDATE][INFO] auto-update cycle starting for 1 due subscription(s)
+[20.11.2026 17:46:12] Server response: code: 200, content-length: 25792 bytes
+[20.11.2026 17:46:12] Subscription #-861591041 updated successfully: 50 servers imported/updated
+[20.11.2026 18:46:03] [UPDATE][INFO] auto-update cycle starting for 1 due subscription(s)
+[20.11.2026 18:46:03] =========================
+[20.11.2026 18:46:03] UPDATED
+[20.11.2026 18:46:03] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[20.11.2026 18:46:03] [UPDATE][INFO] BlancVPN fetching subscription from 65fbf7a0.blanc0mba.link
+[20.11.2026 18:46:04] Server response: code: 200, content-length: 25792 bytes
+[20.11.2026 18:46:05] Subscription #-861591041 updated successfully: 50 servers imported/updated
+[20.11.2026 19:46:03] [UPDATE][INFO] auto-update cycle starting for 1 due subscription(s)
+[20.11.2026 19:46:03] =========================
+[20.11.2026 19:46:03] UPDATED
+[20.11.2026 19:46:03] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[20.11.2026 19:46:03] [UPDATE][INFO] BlancVPN fetching subscription from 65fbf7a0.blanc0mba.link
+[20.11.2026 19:46:04] Server response: code: 200, content-length: 25836 bytes
+[20.11.2026 19:46:04] Subscription #-861591041 updated successfully: 50 servers imported/updated
+[20.11.2026 20:46:03] [UPDATE][INFO] auto-update cycle starting for 1 due subscription(s)
+[20.11.2026 20:46:03] =========================
+[20.11.2026 20:46:03] UPDATED
+[20.11.2026 20:46:03] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[20.11.2026 20:46:03] [UPDATE][INFO] BlancVPN fetching subscription from 65fbf7a0.blanc0mba.link
+[20.11.2026 20:46:04] Server response: code: 200, content-length: 25788 bytes
+[20.11.2026 20:46:04] Subscription #-861591041 updated successfully: 50 servers imported/updated
+[21.11.2026 23:39:26] [UPDATE][INFO] auto-update cycle starting for 1 due subscription(s)
+[21.11.2026 23:39:26] =========================
+[21.11.2026 23:39:26] UPDATED
+[21.11.2026 23:39:26] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[21.11.2026 23:39:26] [UPDATE][INFO] BlancVPN fetching subscription from 65fbf7a0.blanc0mba.link
+[21.11.2026 23:39:26] Failed to download subscription: Remote host closed connection
+[21.11.2026 23:39:58] =========================
+[21.11.2026 23:39:58] UPDATED
+[21.11.2026 23:39:58] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[21.11.2026 23:39:58] [UPDATE][INFO] BlancVPN fetching subscription from 65fbf7a0.blanc0mba.link
+[21.11.2026 23:39:59] Server response: code: 200, content-length: 25808 bytes
+[21.11.2026 23:40:00] Subscription #-861591041 updated successfully: 50 servers imported/updated
+[22.11.2026 00:15:43] =========================
+[22.11.2026 00:15:43] UPDATED
+[22.11.2026 00:15:43] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[22.11.2026 00:15:43] [UPDATE][INFO] BlancVPN fetching subscription from 65fbf7a0.blanc0mba.link
+[22.11.2026 00:15:44] Server response: code: 200, content-length: 25840 bytes
+[22.11.2026 00:15:44] Subscription #-861591041 updated successfully: 50 servers imported/updated
+[22.11.2026 01:15:01] [UPDATE][INFO] auto-update cycle starting for 1 due subscription(s)
+[22.11.2026 01:15:01] =========================
+[22.11.2026 01:15:01] UPDATED
+[22.11.2026 01:15:01] Subscription #-861591041 starting update from: https://65fbf7a0.blanc0mba.link/s/32aa8567ecc442b6804b2ff0c8c751fe
+[22.11.2026 01:15:01] [UPDATE][INFO] BlancVPN fetching subscription from 65fbf7a0.blanc0mba.link
+[22.11.2026 01:15:02] Server response: code: 200, content-length: 25832 bytes
+[22.11.2026 01:15:02] Subscription #-861591041 updated successfully: 50 servers imported/updated

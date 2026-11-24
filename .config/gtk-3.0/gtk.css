@@ -1,0 +1,283 @@
+/*
+ * fib GTK override (GTK3 + GTK4)
+ * Install to both:
+ *   ~/.config/gtk-3.0/gtk.css
+ *   ~/.config/gtk-4.0/gtk.css
+ */
+
+/* Named colors: GTK3 Adwaita, GTK4 Adwaita, libadwaita */
+@define-color theme_bg_color #0a0a0a;
+@define-color theme_fg_color #d6d6d6;
+@define-color theme_base_color #0a0a0a;
+@define-color theme_text_color #d6d6d6;
+@define-color theme_selected_bg_color #bdb9b2;
+@define-color theme_selected_fg_color #0a0a0a;
+@define-color theme_unfocused_bg_color #0a0a0a;
+@define-color theme_unfocused_fg_color #9a9a9a;
+@define-color theme_unfocused_base_color #0a0a0a;
+@define-color theme_unfocused_text_color #9a9a9a;
+@define-color theme_unfocused_selected_bg_color #bdb9b2;
+@define-color theme_unfocused_selected_fg_color #0a0a0a;
+@define-color borders #3a3a3a;
+@define-color unfocused_borders #3a3a3a;
+@define-color insensitive_bg_color #141414;
+@define-color insensitive_fg_color #6e6e6e;
+@define-color content_view_bg #0a0a0a;
+@define-color accent_color #bdb9b2;
+@define-color accent_bg_color #bdb9b2;
+@define-color accent_fg_color #0a0a0a;
+@define-color window_bg_color #0a0a0a;
+@define-color window_fg_color #d6d6d6;
+@define-color view_bg_color #0a0a0a;
+@define-color view_fg_color #d6d6d6;
+@define-color headerbar_bg_color #0a0a0a;
+@define-color headerbar_fg_color #d6d6d6;
+@define-color headerbar_border_color #3a3a3a;
+@define-color card_bg_color #141414;
+@define-color popover_bg_color #0a0a0a;
+@define-color popover_fg_color #d6d6d6;
+@define-color sidebar_bg_color #0a0a0a;
+@define-color sidebar_fg_color #d6d6d6;
+
+* {
+  font-family: "Liberation Mono", "DejaVu Sans Mono", monospace;
+  font-size: 11pt;
+  border-radius: 0;
+  box-shadow: none;
+  text-shadow: none;
+  -gtk-icon-shadow: none;
+}
+
+window,
+dialog,
+.background {
+  background-color: #0a0a0a;
+  color: #d6d6d6;
+}
+
+/* Sidebar */
+placessidebar,
+placessidebar list,
+.sidebar,
+.sidebar list {
+  background-color: #0a0a0a;
+  color: #d6d6d6;
+  border-color: #3a3a3a;
+}
+
+placessidebar row,
+.sidebar row {
+  padding: 4px 8px;
+  color: #d6d6d6;
+}
+
+placessidebar row:hover,
+.sidebar row:hover {
+  background-color: #1a1a1a;
+}
+
+placessidebar row:selected,
+placessidebar row:selected:hover,
+placessidebar row:selected:focus,
+.sidebar row:selected,
+.sidebar row:selected:hover {
+  background-color: #bdb9b2;
+  color: #0a0a0a;
+}
+
+placessidebar row:selected image,
+placessidebar row:selected label,
+.sidebar row:selected image,
+.sidebar row:selected label {
+  color: #0a0a0a;
+}
+
+/* File list */
+treeview.view,
+list,
+listview,
+columnview,
+.view {
+  background-color: #0a0a0a;
+  color: #d6d6d6;
+}
+
+treeview.view:selected,
+treeview.view:selected:focus,
+row:selected,
+listview row:selected,
+columnview row:selected,
+.view:selected {
+  background-color: #bdb9b2;
+  color: #0a0a0a;
+}
+
+treeview.view:hover,
+row:hover {
+  background-color: #1a1a1a;
+}
+
+treeview.view:selected:hover,
+row:selected:hover {
+  background-color: #bdb9b2;
+}
+
+treeview.view header button,
+columnview header button,
+columnview > header > button {
+  background-color: #141414;
+  background-image: none;
+  color: #9a9a9a;
+  border: 0;
+  border-right: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
+  padding: 4px 8px;
+}
+
+treeview.view header button:hover,
+columnview header button:hover {
+  color: #d6d6d6;
+}
+
+/* Header bar, path bar, action bar */
+headerbar,
+.titlebar {
+  background-color: #0a0a0a;
+  background-image: none;
+  color: #d6d6d6;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.path-bar button,
+pathbar button {
+  background-color: #141414;
+  background-image: none;
+  color: #d6d6d6;
+  border: 1px solid #3a3a3a;
+}
+
+.path-bar button:checked,
+.path-bar button.current-dir,
+pathbar button:checked {
+  background-color: #bdb9b2;
+  color: #0a0a0a;
+}
+
+actionbar,
+actionbar > revealer > box,
+.dialog-action-box,
+.dialog-action-area {
+  background-color: #0a0a0a;
+  border-top: 1px solid #3a3a3a;
+}
+
+/* Buttons */
+button {
+  background-color: #1a1a1a;
+  background-image: none;
+  color: #d6d6d6;
+  border: 1px solid #3a3a3a;
+  padding: 4px 12px;
+  min-height: 0;
+}
+
+button:hover {
+  background-color: #2a2a2a;
+  border-color: #dcdcdc;
+}
+
+button:active,
+button:checked {
+  background-color: #bdb9b2;
+  color: #0a0a0a;
+}
+
+button:disabled {
+  color: #6e6e6e;
+  border-color: #2a2a2a;
+}
+
+button.suggested-action,
+button.default {
+  background-color: #bdb9b2;
+  background-image: none;
+  color: #0a0a0a;
+  border-color: #bdb9b2;
+}
+
+button.suggested-action:hover,
+button.default:hover {
+  background-color: #dcdcdc;
+  border-color: #dcdcdc;
+}
+
+button.flat,
+headerbar button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+button.flat:hover,
+headerbar button:hover {
+  background-color: #1a1a1a;
+  border-color: #3a3a3a;
+}
+
+/* Entries */
+entry,
+text {
+  background-color: #0a0a0a;
+  color: #d6d6d6;
+  border: 1px solid #3a3a3a;
+  caret-color: #dcdcdc;
+}
+
+entry:focus,
+entry:focus-within {
+  border-color: #dcdcdc;
+}
+
+selection,
+*:selected {
+  background-color: #bdb9b2;
+  color: #0a0a0a;
+}
+
+/* Popovers, menus */
+popover,
+popover.background,
+popover contents,
+menu,
+.menu {
+  background-color: #0a0a0a;
+  color: #d6d6d6;
+  border: 1px solid #dcdcdc;
+}
+
+menuitem:hover,
+modelbutton:hover {
+  background-color: #bdb9b2;
+  color: #0a0a0a;
+}
+
+/* Scrollbars */
+scrollbar,
+scrollbar trough {
+  background-color: transparent;
+  border: 0;
+}
+
+scrollbar slider {
+  background-color: #3a3a3a;
+  min-width: 6px;
+  min-height: 6px;
+  border: 0;
+}
+
+scrollbar slider:hover {
+  background-color: #6e6e6e;
+}
+
+separator {
+  background-color: #3a3a3a;
+}

@@ -1,0 +1,25 @@
+# keymap.toml: additions on top of yazi's defaults
+
+[mgr]
+prepend_keymap = [
+	# Places
+	{ on = [ "g", "r" ], run = "cd /",               desc = "Go to /" },
+	{ on = [ "g", "t" ], run = "cd /tmp",            desc = "Go to /tmp" },
+	{ on = [ "g", "y" ], run = "cd ~/.config/yazi",  desc = "Go to yazi config" },
+
+	# Flat view: every file up to 3 levels deep in one list
+	{ on = [ "g", "f" ], run = 'search_do --via=fd --args="-d 3"', desc = "Flat view, depth 3" },
+
+	# Edit the hovered file in $EDITOR regardless of its type
+	{ on = "e", run = "shell --block -- ${EDITOR:-vim} %h", desc = "Edit in $EDITOR" },
+
+	# Drop into a shell in the current directory; exit to come back
+	{ on = "!", run = "shell --block -- $SHELL", desc = "Open shell here" },
+
+	# Size and modified time side by side
+	{ on = [ "m", "d" ], run = "linemode size_and_mtime", desc = "Linemode: size and mtime" },
+
+	# Plugins (install first, see README)
+	{ on = "l", run = "plugin smart-enter",             desc = "Enter folder or open file" },
+	{ on = "T", run = "plugin toggle-pane max-preview", desc = "Maximise preview" },
+]
